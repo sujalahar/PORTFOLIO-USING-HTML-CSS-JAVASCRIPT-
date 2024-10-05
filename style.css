@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(122, 122, 189);
+    color:rgb(39, 39, 63) ;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(39, 39, 63);
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(39, 1, 49);
+    font-size: 1.05rem;
+}
+
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.firstsection > div{
+    width: 30%;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.rightSection img{
+    margin: 60px 0px;
+    width: 100%;
+}
+.leftSection{
+    font-size: 3rem;
+    margin: 250px  0px;
+}
+
+.purple{
+    font-size:130%;
+    font-weight:500;
+    color: rgb(122, 119, 218);
+}
+#element{
+    color: rgb(47, 0, 175);
+}
+.ppi{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 15%;
+}
+.text-grey{
+   color: gray;
+   margin: 1px 0px;
+}
+.secondSection{
+    margin: 50px 150px;
+}
+.box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 60px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.secondSection .vertical{
+    height: 100px;
+    width: 1px;
+    background-color: aliceblue; 
+}
+.image-top{
+    width: 80px;
+    position: relative;
+    top: -85px;
+}
+.vertical-text{
+    position: relative;
+    margin: 35px 1px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    color: gray;
+    width: 150px;
+    font-size: small;
+}
+.secondSection{ 
+    margin-bottom: 500px;
+}
+
+.fbox{
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+    height: 300px;
+    background-color:  rgb(21, 5, 66);
+}
+#nitrr{
+    width: 171px;
+    left: -44px;
+    top: -92px;
+}
+#jeee{
+    width: 101px;
+}
+.rightfooter li a{
+    color:rgb(119, 113, 138);
+    text-decoration:none ;
+}
